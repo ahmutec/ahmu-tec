@@ -133,22 +133,23 @@ body {
 }
 
 .portal-box {
-  font-family: 'Courier New', Courier, monospace;
+font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(0.75rem, 2.5vw, 0.875rem);
   border: 2px solid red;
   border-radius: 15px;
   padding: clamp(0.20rem, 1vw, 0.5rem);
   margin: clamp(0.1rem, 1.5vw, 0.2rem) auto; 
   max-width: 90%;
-  background-color: #fff;
-  color:white;
+  background-color: #260a7a;
+  color:rgb(239, 229, 229);
 }
 
 .portal-title {
-  background: rgb(17, 90, 40)
-  align-items: center;
+  font-family: Georgia, "Times New Roman", serif;
+  background: rgb(4, 147, 49); 
+ text-align: center;
   justify-content: center;
-  color: #00ffff;
+  color: #c61212;
   font-weight: bold;
    
 }
@@ -186,19 +187,13 @@ background: rgb(17, 90, 40); /* dark green as requested */
     font-size: 1.0rem;
   }
   
-/*
-  .portal-box p {
-    font-size: 0.7rem;
-    line-height: 1.1;
-  }
-*/
+
   .portal-box {
     font-size: clamp(0.625rem, 3vw, 0.75rem);
     padding: 0.25rem;
     margin: 0.5rem auto;
   }
   } 
-}
 
 @media (max-width: 768px) {
   .portal-title {
@@ -253,17 +248,6 @@ background: rgb(17, 90, 40); /* dark green as requested */
     display: none;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
