@@ -146,9 +146,10 @@ body {
 }
 
 .heading {
+  background: rgb(17, 90, 40)
   color: #00ffff;
   font-weight: bold;
-  background: rgb(10, 60, 20); 
+  text-align:center;
    
 }
 
@@ -252,6 +253,7 @@ background: rgb(17, 90, 40); /* dark green as requested */
     display: none;
   }
 }
+
 
 
 
