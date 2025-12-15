@@ -137,8 +137,8 @@ body {
   font-size: clamp(0.75rem, 2.5vw, 0.875rem);
   border: 2px solid red;
   border-radius: 20px;
-  padding: clamp(0.25rem, 1vw, 0.5rem);
-  margin: clamp(0.5rem, 2vw, 1rem) auto;
+  padding: clamp(0.20rem, 1vw, 0.5rem);
+  margin: clamp(0.3rem, 2vw, 1rem) auto;
   max-width: 90%;
   background-color: darkblue;
 }
@@ -146,7 +146,7 @@ body {
 .portal-box h2 {
   color: #00ff88;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 6px;
 }
 
 /* ================= FOOTER ================= */
@@ -249,6 +249,7 @@ background: rgb(17, 90, 40); /* dark green as requested */
     display: none;
   }
 }
+
 
 
 
