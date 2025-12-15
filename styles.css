@@ -144,7 +144,7 @@ body {
   color:white;
 }
 
-.nav {
+.portal-title {
   background: rgb(17, 90, 40)
   align-items: center;
   justify-content: center;
@@ -182,7 +182,7 @@ background: rgb(17, 90, 40); /* dark green as requested */
 /* ===== RESPONSIVE TEXT (MOBILE) ===== */
 @media (max-width: 576px) {
 
-  .nav {
+  .portal-title {
     font-size: 1.0rem;
   }
   
@@ -201,7 +201,7 @@ background: rgb(17, 90, 40); /* dark green as requested */
 }
 
 @media (max-width: 768px) {
-  .nav {
+  .portal-title {
     font-size: 1.1rem;
   }
 }
@@ -253,6 +253,7 @@ background: rgb(17, 90, 40); /* dark green as requested */
     display: none;
   }
 }
+
 
 
 
