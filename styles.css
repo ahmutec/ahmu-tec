@@ -181,15 +181,19 @@ background: rgb(17, 90, 40); /* dark green as requested */
   .portal-box h2 {
     font-size: 1.2rem;
   }
+  
 /*
   .portal-box p {
     font-size: 0.7rem;
     line-height: 1.1;
   }
-
+*/
   .portal-box {
-    padding: 15px;
-  } */
+    font-size: clamp(0.625rem, 3vw, 0.75rem);
+    padding: 0.25rem;
+    margin: 0.5rem auto;
+  }
+  } 
 }
 
 @media (max-width: 768px) {
@@ -245,5 +249,6 @@ background: rgb(17, 90, 40); /* dark green as requested */
     display: none;
   }
 }
+
 
 
